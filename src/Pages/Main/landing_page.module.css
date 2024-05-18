@@ -190,14 +190,14 @@
 }
 
 .forText h1 {
-    font-weight: 400;
+    font-weight: 300;
     color: #8191a4;
     font-size: 3rem;
 }
 
 .forText h2 {
     color: #8191a4;
-    font-weight: 500;
+    font-weight: 400;
     font-size: 1.25rem;
 }
 
