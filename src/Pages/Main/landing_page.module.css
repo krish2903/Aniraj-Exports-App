@@ -1,0 +1,334 @@
+.mainContainer {
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.vidContainer {
+    width: 100%;
+    height: 100vh;
+    z-index: -1;
+    position: absolute;
+}
+
+.videoBg {
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+    filter: brightness(50%);
+}
+
+.heading {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1vh;
+    position: relative;
+}
+
+.heading h1 {
+    font-weight: 400;
+    font-size: 5rem;
+    letter-spacing: 1rem;
+    color: white;
+    animation: fadeIn 5s ease-in-out;
+    opacity: 0.9;
+}
+
+.heading h2 {
+    font-weight: 500;
+    font-size: 1.5rem;
+    letter-spacing: 0.5rem;
+    color: white;
+    animation: slideDown 3s ease-in-out;
+    opacity: 0.9;
+}
+
+.heading .discoverButton {
+    opacity: 0.9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 12.5px;
+    margin-top: 2rem;
+    animation: slideDown 3s ease-in-out;
+    transition: all 1s ease-in-out;
+    width: 60%;
+    padding: 3%;
+    background-color: rgb(209, 209, 209);
+    color: #1e1e1e;
+    font-size: 1rem;
+    letter-spacing: 0.2rem;
+    font-weight: 600;
+    text-align: center;
+    border-radius: 1000px;
+    cursor: url('data:image/svg+xml,%3Csvg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 25 25"%3E%3Ccircle cx="12.5" cy="12.5" r="10" fill="none" stroke="white" stroke-width="1.5" /%3E%3C/svg%3E'), pointer;
+}
+
+.heading .discoverButton:hover {
+    background-color: #1e1e1e;
+    color: rgb(209, 209, 209);
+    box-shadow: #ffffff 0px 3px 30px 0px;
+}
+
+.heading .discoverButton:active {
+    transform: translateY(10px);
+    opacity: 0;
+    transition: 100ms;
+}
+
+.heading .discoverButton span,
+.forText .joinButton span {
+    display: none;
+}
+
+.heading .discoverButton:hover span,
+.forText .joinButton:hover span {
+    display: block;
+}
+
+.heading .searchBar {
+    display: none;
+    opacity: 0.9;
+    width: 100%;
+    margin-top: 3rem;
+    animation: slideDown 3s ease-in-out;
+    border-bottom: 2pt solid white;
+    cursor: url('data:image/svg+xml,%3Csvg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 25 25"%3E%3Ccircle cx="12.5" cy="12.5" r="10" fill="none" stroke="white" stroke-width="1.5" /%3E%3C/svg%3E'), pointer;
+}
+
+.showSearchBar {
+    display: flex !important;
+}
+
+.heading .searchBar input {
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    outline: none;
+    border: none;
+    font-family: "Quicksand", sans-serif;
+    font-weight: 800;
+    font-size: 1.5rem;
+    letter-spacing: 0.1rem;
+    padding-bottom: 3%;
+    text-align: center;
+    color: white;
+    cursor: url('data:image/svg+xml,%3Csvg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 25 25"%3E%3Ccircle cx="12.5" cy="12.5" r="10" fill="none" stroke="aqua" stroke-width="1.5" /%3E%3C/svg%3E'), text;
+}
+
+.heading .searchBar input::selection {
+    background-color: black;
+}
+
+.heading .searchBar svg {
+    transition: all 1s ease-in-out;
+}
+
+.heading .searchBar svg:hover {
+    transform: rotate(90deg) scale(150%);
+    transition: all 0.5s ease-in-out;
+}
+
+.heading .searchBar svg:active {
+    transform: rotate(90deg) scale(150%) translateX(5px);
+    transition: 100ms;
+}
+
+.overallTextContainer > div:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.overallTextContainer > div:nth-child(odd) {
+    background-color: #ffffff;
+}
+
+.forText {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 100vh;
+    cursor: url('data:image/svg+xml,%3Csvg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 25 25"%3E%3Ccircle cx="12.5" cy="12.5" r="5" fill="none" stroke="darkgray" stroke-width="1.5" /%3E%3C/svg%3E'), default;
+}
+
+.forText .textContainer {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 3vh;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.forText .textBg {
+    position: absolute;
+    opacity: 0.75;
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+}
+
+.forText .imgContainer {
+    display: flex;
+    justify-content: right;
+    width: 30%;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.forText .dmImprint {
+    filter: invert(57%) sepia(21%) saturate(341%) hue-rotate(172deg) brightness(97%) contrast(83%);
+    opacity: 0.2;
+    height: 100vh;
+}
+
+.forText h1 {
+    font-weight: 400;
+    color: #8191a4;
+    font-size: 3rem;
+}
+
+.forText h2 {
+    color: #8191a4;
+    font-weight: 500;
+    font-size: 1.25rem;
+}
+
+.forText .textContainer p {
+    font-weight: 400;
+    font-size: 0.9rem;
+    line-height: 1.75rem;
+    letter-spacing: 1px;
+    text-transform: none;
+}
+
+.forText .joinButton {
+    opacity: 0.9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 12.5px;
+    margin-top: 2rem;
+    animation: slideDown 3s ease-in-out;
+    transition: all 1s ease-in-out;
+    width: 60%;
+    padding: 2%;
+    background-color: #d3d9e2;
+    color: #1e1e1e;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 1000px;
+    cursor: url('data:image/svg+xml,%3Csvg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 25 25"%3E%3Ccircle cx="12.5" cy="12.5" r="10" fill="none" stroke="darkgray" stroke-width="1.5" /%3E%3C/svg%3E'), pointer;
+}
+
+.forText .joinButton:hover {
+    box-shadow: #647488 0px 0px 5px 0px;
+}
+
+.forText .joinButton:active {
+    transform: translateY(10px);
+    transition: 100ms;
+}
+
+.forText .joinButton p {
+    text-transform: uppercase;
+    font-size: 1rem;
+    letter-spacing: 0.2rem;
+    font-weight: 600;
+}
+
+::placeholder {
+    font-family: "Quicksand", sans-serif;
+    font-weight: 800;
+    font-size: 1.5rem;
+    letter-spacing: 0.1rem;
+    text-align: left;
+    color: rgb(180, 180, 180);
+}
+
+.arrows {
+    .arrow {
+        margin: -33px 0 0;
+        padding: 20px;
+        position: absolute;
+        top: 50%;
+        cursor: url('data:image/svg+xml,%3Csvg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 25 25"%3E%3Ccircle cx="12.5" cy="12.5" r="10" fill="none" stroke="white" stroke-width="1.5" /%3E%3C/svg%3E'), pointer;
+        z-index: 1;
+    }
+
+    .prev {
+        left: 30px;
+
+        &:hover .svg {
+            left: -10px;
+        }
+    }
+
+    .next {
+        right: 30px;
+
+        &:hover .svg {
+            left: 10px;
+        }
+    }
+
+    .svg {
+        position: relative;
+        left: 0;
+        width: 14px;
+        height: 26px;
+        fill: #fff;
+        transition: left 0.2s ease;
+    }
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 0.9;
+    }
+}
+
+@keyframes slideDown {
+    0% {
+        opacity: 0;
+        transform: translateY(-1rem);
+    }
+
+    100% {
+        opacity: 0.9;
+        transform: translateY(0);
+    }
+}
+
+@keyframes slideUp {
+    0% {
+        opacity: 0;
+        transform: translateY(3rem);
+    }
+
+    100% {
+        opacity: 0.9;
+        transform: translateY(0);
+    }
+}
+
+.testContainer {
+    scroll-snap-type: y mandatory;
+}
+
+.testContainer>div {
+    text-align: center;
+    scroll-snap-align: center;
+    flex: none;
+}
