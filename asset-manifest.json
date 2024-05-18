@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Aniraj-Exports-App/static/css/main.6443fb79.css",
-    "main.js": "/Aniraj-Exports-App/static/js/main.049f6b6a.js",
+    "main.js": "/Aniraj-Exports-App/static/js/main.61f10734.js",
     "static/js/453.e2bc7522.chunk.js": "/Aniraj-Exports-App/static/js/453.e2bc7522.chunk.js",
     "static/media/slide1.jpg": "/Aniraj-Exports-App/static/media/slide1.46dd38be9a52bc50b864.jpg",
     "static/media/slide5.jpg": "/Aniraj-Exports-App/static/media/slide5.33190ec4584f1303105a.jpg",
@@ -18,11 +18,11 @@
     "static/media/cross-icon.svg": "/Aniraj-Exports-App/static/media/cross-icon.0bc6da048ea47615deaa4fd1f061ba67.svg",
     "static/media/menu-icon.svg": "/Aniraj-Exports-App/static/media/menu-icon.7277cbd0b1ad0386d72f302b86eb9d7c.svg",
     "main.6443fb79.css.map": "/Aniraj-Exports-App/static/css/main.6443fb79.css.map",
-    "main.049f6b6a.js.map": "/Aniraj-Exports-App/static/js/main.049f6b6a.js.map",
+    "main.61f10734.js.map": "/Aniraj-Exports-App/static/js/main.61f10734.js.map",
     "453.e2bc7522.chunk.js.map": "/Aniraj-Exports-App/static/js/453.e2bc7522.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.6443fb79.css",
-    "static/js/main.049f6b6a.js"
+    "static/js/main.61f10734.js"
   ]
 }
