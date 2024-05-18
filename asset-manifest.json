@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/Aniraj-Exports-App/static/css/main.47ee1a61.css",
+    "main.js": "/Aniraj-Exports-App/static/js/main.61f10734.js",
+    "static/js/453.e2bc7522.chunk.js": "/Aniraj-Exports-App/static/js/453.e2bc7522.chunk.js",
+    "static/media/slide1.jpg": "/Aniraj-Exports-App/static/media/slide1.46dd38be9a52bc50b864.jpg",
+    "static/media/slide5.jpg": "/Aniraj-Exports-App/static/media/slide5.33190ec4584f1303105a.jpg",
+    "static/media/slide2.jpg": "/Aniraj-Exports-App/static/media/slide2.6db67bb9058c4b8a30bb.jpg",
+    "static/media/slide3.jpg": "/Aniraj-Exports-App/static/media/slide3.81b2b808285af48fe571.jpg",
+    "static/media/slide4.jpg": "/Aniraj-Exports-App/static/media/slide4.04eb15593942f92541f5.jpg",
+    "static/media/bracelet.png": "/Aniraj-Exports-App/static/media/bracelet.5bd0b7a94eeddc5f331d.png",
+    "static/media/earrings.png": "/Aniraj-Exports-App/static/media/earrings.11e3cf170fad48b132a5.png",
+    "static/media/diamond.png": "/Aniraj-Exports-App/static/media/diamond.d111dafbecfc40e2d177.png",
+    "static/media/pendant.png": "/Aniraj-Exports-App/static/media/pendant.54576033ea3543828a91.png",
+    "static/media/call-icon.svg": "/Aniraj-Exports-App/static/media/call-icon.cbc2c44e826d8a096b9dbb5d44ed2d3f.svg",
+    "index.html": "/Aniraj-Exports-App/index.html",
+    "static/media/ring.svg": "/Aniraj-Exports-App/static/media/ring.74868c93c5a2d9dda55e3909f5157041.svg",
+    "static/media/cross-icon.svg": "/Aniraj-Exports-App/static/media/cross-icon.0bc6da048ea47615deaa4fd1f061ba67.svg",
+    "static/media/menu-icon.svg": "/Aniraj-Exports-App/static/media/menu-icon.7277cbd0b1ad0386d72f302b86eb9d7c.svg",
+    "main.47ee1a61.css.map": "/Aniraj-Exports-App/static/css/main.47ee1a61.css.map",
+    "main.61f10734.js.map": "/Aniraj-Exports-App/static/js/main.61f10734.js.map",
+    "453.e2bc7522.chunk.js.map": "/Aniraj-Exports-App/static/js/453.e2bc7522.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.47ee1a61.css",
+    "static/js/main.61f10734.js"
+  ]
+}
